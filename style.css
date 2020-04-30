@@ -5,6 +5,12 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    padding: 3%;
+    height: 1000px;
+    width: auto;
+}
+
 nav {
     text-align: center;
     margin: 0.5rem;
@@ -66,4 +72,43 @@ header {
 .middle h2 {
     margin: 15px;
     font-weight: bold;
+}
+
+.white-section {
+    height: 200px;
+    padding: 30px 200px;
+}
+
+.white-section h2 {
+    margin-bottom: 20px;
+}
+
+.red-section {
+    margin-top: 20px;
+    background-color: #ff523d;
+    padding: 30px 80px;
+    height: 1100px;
+    text-align: center;
+    color: #fff;
+}
+
+.red-section img {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+}
+
+.red-section img:last-child {
+    margin-bottom: 30px;
+}
+
+.red-section h2 {
+    padding-right: 500px;
+}
+
+footer {
+    background-color: #223c88;
+    color: #fff;
+    height: 300px;
+    padding: 50px 150px;
 }
